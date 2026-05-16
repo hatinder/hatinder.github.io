@@ -31,15 +31,16 @@ Document all CI workflow failures, root causes, and fixes as we encounter them d
 - **Commit**: "Fix: ignore HTML partial files in validation"
 - **Next Test**: Verify html5validator passes with ignored partials
 
-### 3. Placeholder Content Replacement
+### 3. Content Updates - Featured Topics Expansion
 - **Status**: COMPLETED ✓
 - **Date**: 16 May 2026
-- **Update**: Replaced placeholder/template content in sidebar.html with real, meaningful content
-  - Updated "Featured Articles" → "Featured Topics" with real descriptions linking to knowledge base
-  - Replaced placeholder "Get in touch" with real contact links (LinkedIn, Twitter/X, email)
-  - Updated footer copyright with project name and year
-- **Commit**: "Update: replace placeholder content in sidebar with real information"
-- **Note**: This improves UX and makes the knowledge-sharing mission clear
+- **Update**: Enhanced sidebar.html with expanded featured topics
+  - Kept original articles: "Algorithms & Optimization" and "Machine Learning" with links to generic.html
+  - Added new topics: "Unix & Linux", "Cloud & Architecture", "Code Snippets"
+  - All featured topics now have proper hrefs linking to relevant knowledge base sections
+  - Increased featured topics from 3 to 5 for better visibility
+- **Commit**: "Update: expand featured topics with algorithms, ML, and new sections"
+- **Note**: Provides better navigation to all knowledge base resources
 
 ---
 
