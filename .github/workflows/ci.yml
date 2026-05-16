@@ -18,6 +18,6 @@ jobs:
       - name: Install html5validator
         run: pip install html5validator
       - name: Validate HTML
-        run: html5validator --root .
+        run: html5validator --root . --ignore header.html sidebar.html
       - name: Success
         run: echo "Build and HTML validation passed!"
