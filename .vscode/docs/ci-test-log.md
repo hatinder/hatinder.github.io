@@ -31,6 +31,36 @@ Document all CI workflow failures, root causes, and fixes as we encounter them d
 - **Commit**: "Fix: ignore HTML partial files in validation"
 - **Next Test**: Verify html5validator passes with ignored partials
 
+### 3. Content Updates - Featured Topics Expansion
+
+- **Status**: COMPLETED ✓
+- **Date**: 16 May 2026
+- **Update**: Enhanced sidebar.html with expanded featured topics
+  - Kept original articles: "Algorithms & Optimization" and "Machine Learning" with links to generic.html
+  - Added new topics: "Unix & Linux", "Cloud & Architecture", "Code Snippets"
+  - All featured topics now have proper hrefs linking to relevant knowledge base sections
+  - Increased featured topics from 3 to 5 for better visibility
+- **Commit**: "Update: expand featured topics with algorithms, ML, and new sections"
+- **Note**: Provides better navigation to all knowledge base resources
+
+### 4. Created Dedicated Knowledge Base Pages
+
+- **Status**: COMPLETED ✓
+- **Date**: 16 May 2026
+- **New Pages Created**:
+  - `algorithms.html` - Algorithms & Optimization guide with sorting, graphs, DP, search topics
+  - `machine-learning.html` - Machine Learning & AI guide with supervised, unsupervised, neural networks, LLMs
+  - `cloud-architecture.html` - Cloud & Architecture guide with AWS, containers, microservices, DevOps
+- **Updates to sidebar.html**:
+  - Removed default `generic.html` links
+  - Linked featured topics to their dedicated pages:
+    - Algorithms → algorithms.html
+    - Machine Learning → machine-learning.html
+    - Cloud & Architecture → cloud-architecture.html
+  - Changed "Explore More" button to link to index.html (homepage)
+- **Commit**: "Add: dedicated knowledge base pages (algorithms, ML, cloud) and update sidebar links"
+- **Note**: Each page includes relevant subtopics and best practices for each domain
+
 ---
 
 ## Upcoming Tests
