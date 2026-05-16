@@ -11,9 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate HTML
-        uses: Cyb3r-Jak3/html5validator@v1.1.5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          root: .
+          python-version: "3.x"
+      - name: Install html5validator
+        run: pip install html5validator
+      - name: Validate HTML
+        run: html5validator --root .
       - name: Success
         run: echo "Build and HTML validation passed!"
