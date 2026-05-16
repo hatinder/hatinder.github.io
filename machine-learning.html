@@ -1,83 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <title>Machine Learning - Knowledge Base</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
-</head>
-<body class="is-preload">
+  </head>
+  <body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper">
-        <!-- Main -->
-        <div id="main">
-            <div class="inner">
-                <!-- Header -->
-                <header id="headerContent"></header>
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="headerContent"></header>
 
-                <!-- Content -->
-                <section>
-                    <header class="main">
-                        <h1>Machine Learning & AI</h1>
-                    </header>
+          <!-- Content -->
+          <section>
+            <header class="main">
+              <h1>Machine Learning & AI</h1>
+            </header>
 
-                    <p>
-                        Dive deep into machine learning models, neural network architectures, and AI-assisted development.
-                        From classical algorithms to modern deep learning, explore practical applications and best practices.
-                    </p>
+            <p>
+              Dive deep into machine learning models, neural network
+              architectures, and AI-assisted development. From classical
+              algorithms to modern deep learning, explore practical applications
+              and best practices.
+            </p>
 
-                    <hr class="major" />
+            <hr class="major" />
 
-                    <h2>ML Fundamentals</h2>
-                    <div class="row">
-                        <div class="col-6 col-12-small">
-                            <h3>Supervised Learning</h3>
-                            <p>
-                                Regression and classification algorithms: Linear Regression, Logistic Regression, Decision Trees, 
-                                Random Forests, and Support Vector Machines for predictive modeling.
-                            </p>
-                        </div>
-                        <div class="col-6 col-12-small">
-                            <h3>Unsupervised Learning</h3>
-                            <p>
-                                Clustering techniques: K-Means, Hierarchical Clustering, DBSCAN. Dimensionality reduction 
-                                with PCA and t-SNE for data exploration.
-                            </p>
-                        </div>
-                        <div class="col-6 col-12-small">
-                            <h3>Neural Networks</h3>
-                            <p>
-                                Deep learning architectures: Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN),
-                                Transformers, and their applications in computer vision and NLP.
-                            </p>
-                        </div>
-                        <div class="col-6 col-12-small">
-                            <h3>LLMs & Generative AI</h3>
-                            <p>
-                                Large Language Models, prompt engineering, LangChain integration, and building AI-assisted 
-                                applications with models like Claude and GPT.
-                            </p>
-                        </div>
-                    </div>
-
-                    <hr class="major" />
-
-                    <h2>Practical Considerations</h2>
-                    <ul>
-                        <li>Data preprocessing and feature engineering strategies</li>
-                        <li>Cross-validation and model evaluation metrics</li>
-                        <li>Hyperparameter tuning and optimization techniques</li>
-                        <li>Handling imbalanced datasets and class weights</li>
-                        <li>Model deployment, monitoring, and continuous improvement</li>
-                        <li>Ethical considerations and bias detection in ML systems</li>
-                    </ul>
-
-                </section>
+            <h2>ML Fundamentals</h2>
+            <div class="row">
+              <div class="col-6 col-12-small">
+                <h3>Supervised Learning</h3>
+                <p>
+                  Regression and classification algorithms: Linear Regression,
+                  Logistic Regression, Decision Trees, Random Forests, and
+                  Support Vector Machines for predictive modeling.
+                </p>
+              </div>
+              <div class="col-6 col-12-small">
+                <h3>Unsupervised Learning</h3>
+                <p>
+                  Clustering techniques: K-Means, Hierarchical Clustering,
+                  DBSCAN. Dimensionality reduction with PCA and t-SNE for data
+                  exploration.
+                </p>
+              </div>
+              <div class="col-6 col-12-small">
+                <h3>Neural Networks</h3>
+                <p>
+                  Deep learning architectures: Convolutional Neural Networks
+                  (CNN), Recurrent Neural Networks (RNN), Transformers, and
+                  their applications in computer vision and NLP.
+                </p>
+              </div>
+              <div class="col-6 col-12-small">
+                <h3>LLMs & Generative AI</h3>
+                <p>
+                  Large Language Models, prompt engineering, LangChain
+                  integration, and building AI-assisted applications with models
+                  like Claude and GPT.
+                </p>
+              </div>
             </div>
-        </div>
 
-        <!-- Sidebar -->
-        <div id="sidebarContent"></div>
+            <hr class="major" />
+
+            <h2>Practical Considerations</h2>
+            <ul>
+              <li>Data preprocessing and feature engineering strategies</li>
+              <li>Cross-validation and model evaluation metrics</li>
+              <li>Hyperparameter tuning and optimization techniques</li>
+              <li>Handling imbalanced datasets and class weights</li>
+              <li>Model deployment, monitoring, and continuous improvement</li>
+              <li>Ethical considerations and bias detection in ML systems</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div id="sidebarContent"></div>
     </div>
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
@@ -86,10 +94,10 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-        $(function () {
-            $("#sidebarContent").load("sidebar.html");
-            $("#headerContent").load("header.html");
-        });
+      $(function () {
+        $("#sidebarContent").load("sidebar.html");
+        $("#headerContent").load("header.html");
+      });
     </script>
-</body>
+  </body>
 </html>

@@ -1,83 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <title>Cloud & Architecture - Knowledge Base</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
-</head>
-<body class="is-preload">
+  </head>
+  <body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper">
-        <!-- Main -->
-        <div id="main">
-            <div class="inner">
-                <!-- Header -->
-                <header id="headerContent"></header>
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="headerContent"></header>
 
-                <!-- Content -->
-                <section>
-                    <header class="main">
-                        <h1>Cloud Infrastructure & Architecture</h1>
-                    </header>
+          <!-- Content -->
+          <section>
+            <header class="main">
+              <h1>Cloud Infrastructure & Architecture</h1>
+            </header>
 
-                    <p>
-                        Build scalable, resilient cloud systems using AWS and cloud-native architectures.
-                        Learn about microservices, containerization, DevOps practices, and distributed system design patterns.
-                    </p>
+            <p>
+              Build scalable, resilient cloud systems using AWS and cloud-native
+              architectures. Learn about microservices, containerization, DevOps
+              practices, and distributed system design patterns.
+            </p>
 
-                    <hr class="major" />
+            <hr class="major" />
 
-                    <h2>Cloud Fundamentals</h2>
-                    <div class="row">
-                        <div class="col-6 col-12-small">
-                            <h3>AWS Services & Architecture</h3>
-                            <p>
-                                EC2, RDS, S3, Lambda, DynamoDB, and other core AWS services. Designing resilient, scalable 
-                                architectures on AWS for mission-critical applications.
-                            </p>
-                        </div>
-                        <div class="col-6 col-12-small">
-                            <h3>Containerization & Orchestration</h3>
-                            <p>
-                                Docker containers, Kubernetes orchestration, container security, and image management.
-                                Running containerized applications at scale in production environments.
-                            </p>
-                        </div>
-                        <div class="col-6 col-12-small">
-                            <h3>Microservices Architecture</h3>
-                            <p>
-                                Building distributed systems with microservices patterns. Service discovery, API gateways,
-                                inter-service communication, and resilience patterns like circuit breakers.
-                            </p>
-                        </div>
-                        <div class="col-6 col-12-small">
-                            <h3>DevOps & CI/CD</h3>
-                            <p>
-                                Jenkins, GitHub Actions, GitLab CI/CD pipelines. Infrastructure as Code (Terraform), monitoring,
-                                logging, and observability in cloud systems.
-                            </p>
-                        </div>
-                    </div>
-
-                    <hr class="major" />
-
-                    <h2>System Design Principles</h2>
-                    <ul>
-                        <li>Scalability: Horizontal and vertical scaling strategies</li>
-                        <li>Reliability: Fault tolerance, redundancy, and disaster recovery</li>
-                        <li>Performance: Caching, load balancing, and optimization techniques</li>
-                        <li>Security: Identity and access management, encryption, network security</li>
-                        <li>Cost optimization: Resource management and budget tracking</li>
-                        <li>Automation: Infrastructure provisioning and deployment automation</li>
-                    </ul>
-
-                </section>
+            <h2>Cloud Fundamentals</h2>
+            <div class="row">
+              <div class="col-6 col-12-small">
+                <h3>AWS Services & Architecture</h3>
+                <p>
+                  EC2, RDS, S3, Lambda, DynamoDB, and other core AWS services.
+                  Designing resilient, scalable architectures on AWS for
+                  mission-critical applications.
+                </p>
+              </div>
+              <div class="col-6 col-12-small">
+                <h3>Containerization & Orchestration</h3>
+                <p>
+                  Docker containers, Kubernetes orchestration, container
+                  security, and image management. Running containerized
+                  applications at scale in production environments.
+                </p>
+              </div>
+              <div class="col-6 col-12-small">
+                <h3>Microservices Architecture</h3>
+                <p>
+                  Building distributed systems with microservices patterns.
+                  Service discovery, API gateways, inter-service communication,
+                  and resilience patterns like circuit breakers.
+                </p>
+              </div>
+              <div class="col-6 col-12-small">
+                <h3>DevOps & CI/CD</h3>
+                <p>
+                  Jenkins, GitHub Actions, GitLab CI/CD pipelines.
+                  Infrastructure as Code (Terraform), monitoring, logging, and
+                  observability in cloud systems.
+                </p>
+              </div>
             </div>
-        </div>
 
-        <!-- Sidebar -->
-        <div id="sidebarContent"></div>
+            <hr class="major" />
+
+            <h2>System Design Principles</h2>
+            <ul>
+              <li>Scalability: Horizontal and vertical scaling strategies</li>
+              <li>
+                Reliability: Fault tolerance, redundancy, and disaster recovery
+              </li>
+              <li>
+                Performance: Caching, load balancing, and optimization
+                techniques
+              </li>
+              <li>
+                Security: Identity and access management, encryption, network
+                security
+              </li>
+              <li>
+                Cost optimization: Resource management and budget tracking
+              </li>
+              <li>
+                Automation: Infrastructure provisioning and deployment
+                automation
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div id="sidebarContent"></div>
     </div>
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
@@ -86,10 +106,10 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-        $(function () {
-            $("#sidebarContent").load("sidebar.html");
-            $("#headerContent").load("header.html");
-        });
+      $(function () {
+        $("#sidebarContent").load("sidebar.html");
+        $("#headerContent").load("header.html");
+      });
     </script>
-</body>
+  </body>
 </html>
